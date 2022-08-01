@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1632084698617-56777eac8eed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    font-family: 'Arial';
+}
+
+.login {
+    width: 382px;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #23463f;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #fbff09;
+    padding: 20px;
+    font-weight: bold;
+    display:block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+    color: #08ffd1;
+    font-size: 17px;
+}
+
+#Uname {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#Pass {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#log {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
+
+span {
+    color: white;
+    font-size: 17px;
+}
+
+a {
+    float: right;
+    background-color: grey;
+}

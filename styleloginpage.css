@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    background-image: url(https://images.unsplash.com/photo-1559239115-ce3eb7cb87ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1088&q=80);
+    background-size: cover;
+    font-family: 'Arial';
+}
+.form-box
+{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(69, 252, 252);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color: white;
+    padding: 70px 30px;
+
+}
+.logo
+{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    /* top: 30px;
+    left: 140px; */
+    top: -60px;
+    left: calc(50% - 60px);
+}
+
+h1
+{
+    margin: 0px;
+    padding: 0 0 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-box p
+{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+.form-box input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-box input[type="text"], input[type="password"]
+{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 16px;
+}
+
+.form-box input[type="submit"]
+{
+border: none;
+outline: none;
+height: 40px;
+background-color: yellow;
+font-size: 18px;
+font-weight: bold;
+}
+
+.form-box a
+{
+    color: white;
+    text-decoration: none;
+}
